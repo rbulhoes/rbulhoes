@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bem-vindos!",
+    "section": "",
+    "text": "Este é o meu site profissional, onde reúno materiais de cursos e projetos.\nSou Professor Adjunto do Instituto de Matemática e Estatística da Universidade Federal da Bahia, lotado no Departamento de Estatística.\nFormação acadêmica\n\nGraduação em Estatística (B. Sc.) pela Universidade Federal da Bahia;\nMestrado em Estatística (M. Sc.) pela Universidade de São Paulo;\nDoutorado em Estatística (D. Sc.) pela Universidade Federal do Rio de Janeiro.\n\nÁreas de interesse\n\nGeoestatística, estatística espacial, modelagem espaço-temporal e ciência de dados geográficos;\nInferência bayesiana;\nModelos dinâmicos (ou modelos de espaço de estados);\nAnálise de variáveis latentes.\n\nEndereço profissional\n\nUniversidade Federal da Bahia\nInstituto de Matemática e Estatística, Sala 221\nRua Barão de Jeremoabo, s/n, CEP 40.170-110\nOndina, Salvador/BA, Brasil"
+  },
+  {
+    "objectID": "projetos.html",
+    "href": "projetos.html",
+    "title": "Projetos de pesquisa e extensão",
+    "section": "",
+    "text": "Projetos de pesquisa\n\nCoordenador do projeto “Análise bayesiana de dados espaço-temporais anisotrópicos sobre a qualidade do ar: novas metodologias para interpolação espacial e estimação de valores faltantes” - Edital 010/2024 PRPPG/UFBA (JOVEMPESQ 2024).\n\nGrupos de pesquisa e laboratórios\n\nLíder de pesquisa em Modelagem Espaço-Temporal no SaLLy (Statistical Learning Laboratory).\nMembro do grupo Métodos Estatísticos Aplicados e Computacionais.\n\nAtividades de extensão\n\nCoordenador dos Cursos de Extensão - Dep. de Estatística do IME/UFBA (2015).\nMembro da comissão organizadora do Dia do Estatístico - Dep. de Estatística do IME/UFBA (2015).\nCoordenador do Ciclo de Palestras - Dep. de Estatística do IME/UFBA (2015, 2016).\nMembro da comissão organizadora local da 61ª RBras - RBras & Dep. de Estatística do IME/UFBA (2016).\nMembro de comissão organizadora da Third Conference on Statistics and Data Science (2021).\nMembro de comissão organizadora da Fourth Conference on Statistics and Data Science (2022).\nMembro de comissão científica do 1st SaLLy Day (2023).\nMembro de comissão científica do 2nd SaLLy Day (2024).\nMembro de comissão científica do IX EBEST (2024).\nMembro de comissão científica do 3rd SaLLy Day (2025).\n\nOutros projetos\n\n Link para a minha dissertação de mestrado (2013).\n\n\n Link para a minha tese de doutorado (2024)."
+  },
+  {
+    "objectID": "cursos.html",
+    "href": "cursos.html",
+    "title": "Cursos",
+    "section": "",
+    "text": "Disciplinas\nMinistro aulas no IME/UFBA dos seguintes componentes curriculares:\n\nMAT020 - Estatística I A (2015.1, 2015.2, 2016.1, 2022.1).\nMAT021 - Estatística I B (2015.1).\nMAT023 - Estatística II A (2022.2, 2024.2, 2025.1, 2025.2).\nMAT027 - Estatística IV (2016.2, 2022.1).\nMAT028 - Estatística III C (2021.1, 2021.2, 2024.1).\nMAT223 - Probabilidade I (2016.1).\nMATA44 - Estatística V (2023.1, 2023.2).\nMATC65 - Estatística em Psicologia (2024.1).\nMATD03 - Estatística Aplicada à Saúde (2022.2).\nMATD39 - Análise Descritiva e Exploratória de Dados A (2021.2, 2022.2, 2024.2, 2025.2).\nMATD45 - Sistemas de Informações e a Profissão do Estatístico (2015.2, 2016.2).\nMATD65 - Tópicos Especiais em Estatística - A (2015.2).\nMATF15 - Estatística Econômica II (2021.1, 2025.1).\nMATF59 - Estatística Básica para Humanidades (2023.1, 2023.2).\n\nMateriais de ensino\n\n\nSéries temporais"
+  },
+  {
+    "objectID": "cursos/series-temporais/aulas/aula02.html",
+    "href": "cursos/series-temporais/aulas/aula02.html",
+    "title": "Aula 2 — Introdução",
+    "section": "",
+    "text": "Aula 2 — Introdução\n\nConceitos básicos de séries temporais\nNotação, decomposição, exemplos\n\nMateriais: - (adicione quando tiver) Slides (PDF) - (adicione quando tiver) Dados de exemplo"
+  },
+  {
+    "objectID": "cursos/series-temporais/aulas/aula01.html",
+    "href": "cursos/series-temporais/aulas/aula01.html",
+    "title": "Aula 1 — Introdução",
+    "section": "",
+    "text": "Aula 1 — Introdução\n\nConceitos básicos de séries temporais\nNotação, decomposição, exemplos\n\nMateriais: - (adicione quando tiver) Slides (PDF) - (adicione quando tiver) Dados de exemplo"
+  },
+  {
+    "objectID": "cursos/series-temporais/index.html",
+    "href": "cursos/series-temporais/index.html",
+    "title": "XYZ",
+    "section": "",
+    "text": "Bem-vindos ao curso! Aqui você encontra aulas, materiais e código.\n\nAula 1: Introdução\nAula 2: Teste\n\n\n\n(Coloque aqui arquivos como PDFs e dados. Exemplo:) - Slides da Aula 1 - Dados de exemplo (CSV)"
+  },
+  {
+    "objectID": "cursos/series-temporais/index.html#materiais",
+    "href": "cursos/series-temporais/index.html#materiais",
+    "title": "XYZ",
+    "section": "",
+    "text": "(Coloque aqui arquivos como PDFs e dados. Exemplo:) - Slides da Aula 1 - Dados de exemplo (CSV)"
+  },
+  {
+    "objectID": "projetos/abc/index.html",
+    "href": "projetos/abc/index.html",
+    "title": "Projeto ABC",
+    "section": "",
+    "text": "Teste"
+  }
+]

@@ -1,0 +1,95 @@
+/* ===== Estilo para o nome do site (navbar) ===== */
+.navbar-brand {
+  font-variant: small-caps;     /* versalete elegante */
+  font-family: "Georgia", serif; /* fonte clássica */
+  font-weight: 600;              /* um pouco mais marcante */
+  letter-spacing: 1px;           /* espaçamento entre letras */
+  color: #2c3e50 !important;     /* cor para o modo claro */
+}
+
+/* ===== Ajuste para o modo escuro ===== */
+[data-bs-theme="dark"] .navbar-brand {
+  color: #ecf0f1 !important;     /* cor clara para contraste */
+}
+
+/* Contêiner da intro */
+.container.intro {
+  display: flex;
+  align-items: flex-start;   /* 👈 topo, não centro */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Coluna de texto (esquerda) */
+.text-section {
+  flex: 1 1 65%;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Coluna da foto (direita) */
+.photo-section {
+  flex: 1 1 30%;
+  text-align: center;
+  align-self: flex-start;     /* 👈 garante topo mesmo com alturas diferentes */
+}
+
+.photo-section img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Empilha no mobile com a foto primeiro (opcional) */
+@media (max-width: 800px) {
+  .container.intro {
+    flex-direction: column-reverse; /* foto vem antes do texto */
+  }
+  .photo-section {
+    margin-bottom: 1rem;
+  }
+}
+
+.map-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 900px;    /* limite opcional */
+  margin: 1.5rem auto;
+  aspect-ratio: 16 / 9; /* mantém proporção */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.map-wrap iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Lista manual de cursos (alinhada à esquerda, sem bullets, com ícone) */
+.lista-cursos {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.lista-cursos li {
+  margin: 0.4rem 0;
+}
+
+.lista-cursos .curso-link {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.lista-cursos .curso-link::before {
+  content: "📘";
+  margin-right: 0.5em;
+  font-size: 1.05em;
+  line-height: 1;
+}
