@@ -1,21 +1,21 @@
 /* ===== Estilo para o nome do site (navbar) ===== */
 .navbar-brand {
-  font-variant: small-caps;     /* versalete elegante */
-  font-family: "Georgia", serif; /* fonte clássica */
-  font-weight: 600;              /* um pouco mais marcante */
-  letter-spacing: 1px;           /* espaçamento entre letras */
-  color: #2c3e50 !important;     /* cor para o modo claro */
+  font-variant: small-caps;
+  font-family: "Georgia", serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #2c3e50 !important;
 }
 
 /* ===== Ajuste para o modo escuro ===== */
 [data-bs-theme="dark"] .navbar-brand {
-  color: #ecf0f1 !important;     /* cor clara para contraste */
+  color: #ecf0f1 !important;
 }
 
 /* Contêiner da intro */
 .container.intro {
   display: flex;
-  align-items: flex-start;   /* 👈 topo, não centro */
+  align-items: flex-start;   /* topo, não centro */
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 2rem;
@@ -30,11 +30,14 @@
   line-height: 1.6;
 }
 
-/* Coluna da foto (direita) */
+/* Coluna da foto (direita) — versão única */
 .photo-section {
   flex: 1 1 30%;
-  text-align: center;
-  align-self: flex-start;     /* 👈 garante topo mesmo com alturas diferentes */
+  text-align: center;          /* centraliza textos e imagens */
+  align-self: flex-start;
+  display: flex;               /* empilha ícones e foto */
+  flex-direction: column;
+  align-items: center;         /* centraliza horizontalmente */
 }
 
 .photo-section img {
@@ -43,22 +46,19 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-/* Empilha no mobile com a foto primeiro (opcional) */
+/* Empilha no mobile com a foto primeiro */
 @media (max-width: 800px) {
-  .container.intro {
-    flex-direction: column-reverse; /* foto vem antes do texto */
-  }
-  .photo-section {
-    margin-bottom: 1rem;
-  }
+  .container.intro { flex-direction: column-reverse; }
+  .photo-section { margin-bottom: 1rem; }
 }
 
+/* Mapa responsivo */
 .map-wrap {
   position: relative;
   width: 100%;
-  max-width: 900px;    /* limite opcional */
+  max-width: 900px;
   margin: 1.5rem auto;
-  aspect-ratio: 16 / 9; /* mantém proporção */
+  aspect-ratio: 16 / 9;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
@@ -71,22 +71,10 @@
   height: 100%;
 }
 
-/* Lista manual de cursos (alinhada à esquerda, sem bullets, com ícone) */
-.lista-cursos {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-}
-
-.lista-cursos li {
-  margin: 0.4rem 0;
-}
-
-.lista-cursos .curso-link {
-  text-decoration: none;
-  font-weight: 500;
-}
-
+/* Lista manual de cursos */
+.lista-cursos { list-style: none; padding-left: 0; margin-left: 0; }
+.lista-cursos li { margin: 0.4rem 0; }
+.lista-cursos .curso-link { text-decoration: none; font-weight: 500; }
 .lista-cursos .curso-link::before {
   content: "📘";
   margin-right: 0.5em;
@@ -96,14 +84,13 @@
 
 /* ===== ÍCONES SOCIAIS NA LATERAL DIREITA ===== */
 .home-social{
-  display:flex;
-  flex-wrap:wrap;
-  gap:.5rem;
-  justify-content:flex-end;          /* direita no desktop */
-  margin-bottom:.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  justify-content: center;     /* centraliza no desktop */
+  margin-bottom: .75rem;
 }
 
-/* “botões” redondos */
 .home-social a{
   display:inline-flex;
   align-items:center;
@@ -114,7 +101,7 @@
   text-decoration:none;
 }
 
-/* tamanhos dos ícones (funciona p/ <img>, <svg> e <i.bi>) */
+/* tamanho do ícone (img, svg ou <i.bi>) */
 .home-social img,
 .home-social svg,
 .home-social i{
@@ -126,7 +113,7 @@
 [data-bs-theme="dark"] .home-social a{ border-color: rgba(255,255,255,.25); }
 [data-bs-theme="dark"] .home-social a:hover{ background:rgba(255,255,255,.08); }
 
-/* no mobile, alinhar à esquerda (fica acima da foto por causa do seu column-reverse) */
+/* mobile: mantenha centralizado */
 @media (max-width: 800px){
-  .home-social{ justify-content:flex-start; }
+  .home-social{ justify-content: center; }
 }
