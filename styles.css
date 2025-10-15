@@ -93,3 +93,40 @@
   font-size: 1.05em;
   line-height: 1;
 }
+
+/* ===== ÍCONES SOCIAIS NA LATERAL DIREITA ===== */
+.home-social{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.5rem;
+  justify-content:flex-end;          /* direita no desktop */
+  margin-bottom:.75rem;
+}
+
+/* “botões” redondos */
+.home-social a{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:42px; height:42px;
+  border-radius:999px;
+  border:1px solid var(--rb-border, #e5e7eb);
+  text-decoration:none;
+}
+
+/* tamanhos dos ícones (funciona p/ <img>, <svg> e <i.bi>) */
+.home-social img,
+.home-social svg,
+.home-social i{
+  width:22px; height:22px;
+}
+
+/* hover claro/escuro */
+.home-social a:hover{ background:rgba(0,0,0,.04); }
+[data-bs-theme="dark"] .home-social a{ border-color: rgba(255,255,255,.25); }
+[data-bs-theme="dark"] .home-social a:hover{ background:rgba(255,255,255,.08); }
+
+/* no mobile, alinhar à esquerda (fica acima da foto por causa do seu column-reverse) */
+@media (max-width: 800px){
+  .home-social{ justify-content:flex-start; }
+}
