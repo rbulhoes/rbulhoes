@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Bem-vindos!",
     "section": "",
-    "text": "Este é o meu site profissional, onde reúno materiais de cursos e projetos.\nSou Professor Adjunto do Instituto de Matemática e Estatística da Universidade Federal da Bahia, lotado no Departamento de Estatística.\nFormação acadêmica\n\nGraduação em Estatística (B. Sc.) pela Universidade Federal da Bahia;\nMestrado em Estatística (M. Sc.) pela Universidade de São Paulo;\nDoutorado em Estatística (D. Sc.) pela Universidade Federal do Rio de Janeiro.\n\nÁreas de interesse\n\nGeoestatística, estatística espacial, modelagem espaço-temporal e ciência de dados geográficos;\nInferência bayesiana;\nModelos dinâmicos (ou modelos de espaço de estados);\nAnálise de variáveis latentes.\n\nEndereço profissional\n\nUniversidade Federal da Bahia\nInstituto de Matemática e Estatística, Sala 221\nRua Barão de Jeremoabo, s/n, CEP 40.170-110\nOndina, Salvador/BA, Brasil"
+    "text": "Este é o meu site profissional, onde reúno materiais de cursos e projetos.\nSou Professor Adjunto do Instituto de Matemática e Estatística da Universidade Federal da Bahia, lotado no Departamento de Estatística.\nFormação acadêmica\n\nGraduação em Estatística (B. Sc.) pela Universidade Federal da Bahia;\nMestrado em Estatística (M. Sc.) pela Universidade de São Paulo;\nDoutorado em Estatística (D. Sc.) pela Universidade Federal do Rio de Janeiro.\n\nÁreas de interesse\n\nGeoestatística, estatística espacial, modelagem espaço-temporal e ciência de dados geográficos;\nInferência bayesiana;\nModelos dinâmicos (ou modelos de espaço de estados);\nAnálise de variáveis latentes.\n\nEndereço profissional\n\nUniversidade Federal da Bahia\nInstituto de Matemática e Estatística, Sala 221\nRua Barão de Jeremoabo, s/n, CEP 40.170-110\nOndina, Salvador/BA, Brasil\nE-mail: rbulhoes at ufba dot br"
   },
   {
     "objectID": "projetos.html",
@@ -30,21 +30,21 @@
   {
     "objectID": "cursos/series-temporais/aulas/aula01.html",
     "href": "cursos/series-temporais/aulas/aula01.html",
-    "title": "Aula 1 — Introdução",
+    "title": "Conceitos básicos",
     "section": "",
-    "text": "Aula 1 — Introdução\n\nConceitos básicos de séries temporais\nNotação, decomposição, exemplos\n\nMateriais: - (adicione quando tiver) Slides (PDF) - (adicione quando tiver) Dados de exemplo"
+    "text": "Introdução\nDizemos que uma coleção de valores é uma série temporal se, para \\(t \\in \\{1, 2, \\ldots, T\\}\\), tivermos que \\(y_{t}\\) é…\nMateriais: - (adicione quando tiver) Slides (PDF) - (adicione quando tiver) Dados de exemplo"
   },
   {
     "objectID": "cursos/series-temporais/index.html",
     "href": "cursos/series-temporais/index.html",
-    "title": "XYZ",
+    "title": "Análise de Séries Temporais",
     "section": "",
     "text": "Bem-vindos ao curso! Aqui você encontra aulas, materiais e código.\n\nAula 1: Introdução\nAula 2: Teste\n\n\n\n(Coloque aqui arquivos como PDFs e dados. Exemplo:) - Slides da Aula 1 - Dados de exemplo (CSV)"
   },
   {
     "objectID": "cursos/series-temporais/index.html#materiais",
     "href": "cursos/series-temporais/index.html#materiais",
-    "title": "XYZ",
+    "title": "Análise de Séries Temporais",
     "section": "",
     "text": "(Coloque aqui arquivos como PDFs e dados. Exemplo:) - Slides da Aula 1 - Dados de exemplo (CSV)"
   },
