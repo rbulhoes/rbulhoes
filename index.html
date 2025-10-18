@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -72,6 +73,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 
@@ -286,7 +288,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
@@ -313,12 +317,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="container intro">
 <div class="text-section">
 <p>Este é o meu site profissional, onde reúno materiais de <strong>cursos</strong> e <strong>projetos</strong>.</p>
-<p>Sou Professor Adjunto do <a href="http://ime.ufba.br/" target="_blank">Instituto de Matemática e Estatística</a> da <a href="http://www.ufba.br/" target="_blank">Universidade Federal da Bahia</a>, lotado no <a href="http://www.est.ufba.br/" target="_blank">Departamento de Estatística</a>.</p>
+<p>Sou Professor Adjunto do <a href="http://ime.ufba.br/" target="_blank" rel="noopener">Instituto de Matemática e Estatística</a> da <a href="http://www.ufba.br/" target="_blank" rel="noopener">Universidade Federal da Bahia</a>, lotado no <a href="http://www.est.ufba.br/" target="_blank" rel="noopener">Departamento de Estatística</a>.</p>
 <p><strong>Formação acadêmica</strong></p>
 <ul>
 <li>Graduação em Estatística (B. Sc.) pela Universidade Federal da Bahia;</li>
-<li><a href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&amp;id_trabalho=123488" target="_blank">Mestrado</a> em Estatística (M. Sc.) pela Universidade de São Paulo;</li>
-<li><a href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&amp;id_trabalho=14232565" target="_blank">Doutorado</a> em Estatística (D. Sc.) pela Universidade Federal do Rio de Janeiro.</li>
+<li><a href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&amp;id_trabalho=123488" target="_blank" rel="noopener">Mestrado</a> em Estatística (M. Sc.) pela Universidade de São Paulo;</li>
+<li><a href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&amp;id_trabalho=14232565" target="_blank" rel="noopener">Doutorado</a> em Estatística (D. Sc.) pela Universidade Federal do Rio de Janeiro.</li>
 </ul>
 <p><strong>Áreas de interesse</strong></p>
 <ul>
@@ -441,7 +445,7 @@ E-mail: rbulhoes <em>at</em> ufba <em>dot</em> br</p>
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/rbulhoes\.netlify\.app");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -792,4 +796,5 @@ E-mail: rbulhoes <em>at</em> ufba <em>dot</em> br</p>
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

@@ -9,16 +9,16 @@
   {
     "objectID": "projetos.html",
     "href": "projetos.html",
-    "title": "Projetos e atividades de pesquisa e extensão",
+    "title": "Projetos e atividades",
     "section": "",
-    "text": "Projetos de pesquisa\n\nCoordenador do projeto “Análise bayesiana de dados espaço-temporais anisotrópicos sobre a qualidade do ar: novas metodologias para interpolação espacial e estimação de valores faltantes” - Edital 010/2024 da PRPPG/UFBA (JOVEMPESQ 2024).\nMembro do projeto “Lentes coloridas: profissionais LGBTQIAPN+ no audiovisual baiano” - Edital PG03/2023 de Chamamento Público da SECULT/BA (Lei Paulo Gustavo).\n\nGrupos de pesquisa e laboratórios\n\nLíder de pesquisa em Modelagem Espaço-Temporal no SaLLy (Statistical Learning Laboratory).\nMembro do grupo Métodos Estatísticos Aplicados e Computacionais.\n\nAtividades de extensão e outras relacionadas\n\nCoordenador dos Cursos de Extensão - Dep. de Estatística do IME/UFBA (2015).\nMembro da comissão organizadora do Dia do Estatístico - Dep. de Estatística do IME/UFBA (2015).\nCoordenador do Ciclo de Palestras - Dep. de Estatística do IME/UFBA (2015, 2016).\nMembro da comissão organizadora local da 61ª RBras - RBras & Dep. de Estatística do IME/UFBA (2016).\nMembro de comissão organizadora da Third Conference on Statistics and Data Science (2021).\nMembro de comissão organizadora da Fourth Conference on Statistics and Data Science (2022).\nMembro de comissão científica do 1st SaLLy Day (2023).\nMembro de comissão científica do 2nd SaLLy Day (2024).\nMembro de comissão científica do IX EBEST (2024).\nMembro de comissão científica do 3rd SaLLy Day (2025).\n\nOutros trabalhos\n\n Link para a minha dissertação de mestrado (2013).\n\n\n Link para a minha tese de doutorado (2024)."
+    "text": "Coordenador do projeto “Análise bayesiana de dados espaço-temporais anisotrópicos sobre a qualidade do ar: novas metodologias para interpolação espacial e estimação de valores faltantes” - Edital 010/2024 da PRPPG/UFBA (JOVEMPESQ 2024).\nMembro do projeto “Lentes coloridas: profissionais LGBTQIAPN+ no audiovisual baiano” - Edital PG03/2023 de Chamamento Público da SECULT/BA (Lei Paulo Gustavo).\nAutor da tese “Spatial deformation in a Bayesian spatiotemporal model for matrix-variate responses”, desenvolvida sob a orientação dos professores Marina Paez e Dani Gamerman - Programa de Pós-Graduação em Estatística do IM/UFRJ, 2024.\nAutor da dissertação “Contribuições à análise de outliers em modelos de equações estruturais”, desenvolvida sob a orientação da professora Lúcia Barroso - Programa de Pós-Graduação em Probabilidade e Estatística do IME-USP, 2013.\n\n\n\n\n\nLíder de pesquisa em Modelagem Espaço-Temporal no Statistical Learning Laboratory (SaLLy), IME/UFBA.\nMembro do grupo de pesquisa do CNPq sobre Métodos Estatísticos Aplicados e Computacionais, IME/UFBA."
   },
   {
     "objectID": "cursos.html",
     "href": "cursos.html",
     "title": "Cursos",
     "section": "",
-    "text": "Disciplinas\nMinistro aulas no IME/UFBA dos seguintes componentes curriculares:\n\nMAT020 - Estatística I A (2015.1, 2015.2, 2016.1, 2022.1).\nMAT021 - Estatística I B (2015.1).\nMAT023 - Estatística II A (2022.2, 2024.2, 2025.1, 2025.2).\nMAT027 - Estatística IV (2016.2, 2022.1).\nMAT028 - Estatística III C (2021.1, 2021.2, 2024.1).\nMAT223 - Probabilidade I (2016.1).\nMATA44 - Estatística V (2023.1, 2023.2).\nMATC65 - Estatística em Psicologia (2024.1).\nMATD03 - Estatística Aplicada à Saúde (2022.2).\nMATD39 - Análise Descritiva e Exploratória de Dados A (2021.2, 2022.2, 2024.2, 2025.2).\nMATD45 - Sistemas de Informações e a Profissão do Estatístico (2015.2, 2016.2).\nMATD65 - Tópicos Especiais em Estatística - A (2015.2).\nMATF15 - Estatística Econômica II (2021.1, 2025.1).\nMATF59 - Estatística Básica para Humanidades (2023.1, 2023.2).\n\nNotas de aula e outros textos\n\n\nSéries temporais"
+    "text": "Ministro aulas no IME/UFBA dos seguintes componentes curriculares:\n\nMAT020 - Estatística I A (2015.1, 2015.2, 2016.1, 2022.1).\nMAT021 - Estatística I B (2015.1).\nMAT023 - Estatística II A (2022.2, 2024.2, 2025.1, 2025.2).\nMAT027 - Estatística IV (2016.2, 2022.1).\nMAT028 - Estatística III C (2021.1, 2021.2, 2024.1).\nMAT223 - Probabilidade I (2016.1).\nMATA44 - Estatística V (2023.1, 2023.2).\nMATC65 - Estatística em Psicologia (2024.1).\nMATD03 - Estatística Aplicada à Saúde (2022.2).\nMATD39 - Análise Descritiva e Exploratória de Dados A (2021.2, 2022.2, 2024.2, 2025.2).\nMATD45 - Sistemas de Informações e a Profissão do Estatístico (2015.2, 2016.2).\nMATD65 - Tópicos Especiais em Estatística - A (2015.2).\nMATF15 - Estatística Econômica II (2021.1, 2025.1).\nMATF59 - Estatística Básica para Humanidades (2023.1, 2023.2)."
   },
   {
     "objectID": "cursos/series-temporais/aulas/aula02.html",
@@ -39,7 +39,7 @@
     "href": "cursos/series-temporais/index.html",
     "title": "Análise de Séries Temporais",
     "section": "",
-    "text": "Bem-vindos ao curso! Aqui você encontra aulas, materiais e código.\n\nAula 1: Introdução\nAula 2: Teste\n\n\n\n(Coloque aqui arquivos como PDFs e dados. Exemplo:) - Slides da Aula 1 - Dados de exemplo (CSV)"
+    "text": "Estrutura\nBem-vindos ao curso! Aqui você encontra aulas, materiais e código.\n\nAula 1: Introdução\nAula 2: Teste\n\n\n\nMateriais\n(Coloque aqui arquivos como PDFs e dados. Exemplo:) - Slides da Aula 1 - Dados de exemplo (CSV)"
   },
   {
     "objectID": "cursos/series-temporais/index.html#materiais",
@@ -54,5 +54,47 @@
     "title": "Projeto ABC",
     "section": "",
     "text": "Teste"
+  },
+  {
+    "objectID": "projetos.html#pesquisa",
+    "href": "projetos.html#pesquisa",
+    "title": "Projetos e atividades",
+    "section": "",
+    "text": "Coordenador do projeto “Análise bayesiana de dados espaço-temporais anisotrópicos sobre a qualidade do ar: novas metodologias para interpolação espacial e estimação de valores faltantes” - Edital 010/2024 da PRPPG/UFBA (JOVEMPESQ 2024).\nMembro do projeto “Lentes coloridas: profissionais LGBTQIAPN+ no audiovisual baiano” - Edital PG03/2023 de Chamamento Público da SECULT/BA (Lei Paulo Gustavo).\nAutor da tese “Spatial deformation in a Bayesian spatiotemporal model for matrix-variate responses”, desenvolvida sob a orientação dos professores Marina Paez e Dani Gamerman - Programa de Pós-Graduação em Estatística do IM/UFRJ, 2024.\nAutor da dissertação “Contribuições à análise de outliers em modelos de equações estruturais”, desenvolvida sob a orientação da professora Lúcia Barroso - Programa de Pós-Graduação em Probabilidade e Estatística do IME-USP, 2013.\n\n\n\n\n\nLíder de pesquisa em Modelagem Espaço-Temporal no Statistical Learning Laboratory (SaLLy), IME/UFBA.\nMembro do grupo de pesquisa do CNPq sobre Métodos Estatísticos Aplicados e Computacionais, IME/UFBA."
+  },
+  {
+    "objectID": "projetos.html#outras-atividades",
+    "href": "projetos.html#outras-atividades",
+    "title": "Projetos e atividades",
+    "section": "Outras atividades",
+    "text": "Outras atividades\n\nCoordenador dos Cursos de Extensão - Dep. de Estatística do IME/UFBA (2015).\nMembro da comissão organizadora do Dia do Estatístico - Dep. de Estatística do IME/UFBA (2015).\nCoordenador do Ciclo de Palestras - Dep. de Estatística do IME/UFBA (2015, 2016).\nMembro da comissão organizadora local da 61ª RBras - RBras & Dep. de Estatística do IME/UFBA (2016).\nMembro de comissão organizadora da Third Conference on Statistics and Data Science (2021).\nMembro de comissão organizadora da Fourth Conference on Statistics and Data Science (2022).\nMembro de comissão científica do 1st SaLLy Day (2023).\nMembro de comissão científica do 2nd SaLLy Day (2024).\nMembro de comissão científica do IX EBEST (2024).\nMembro de comissão científica do 3rd SaLLy Day (2025)."
+  },
+  {
+    "objectID": "cursos.html#disciplinas",
+    "href": "cursos.html#disciplinas",
+    "title": "Cursos",
+    "section": "",
+    "text": "Ministro aulas no IME/UFBA dos seguintes componentes curriculares:\n\nMAT020 - Estatística I A (2015.1, 2015.2, 2016.1, 2022.1).\nMAT021 - Estatística I B (2015.1).\nMAT023 - Estatística II A (2022.2, 2024.2, 2025.1, 2025.2).\nMAT027 - Estatística IV (2016.2, 2022.1).\nMAT028 - Estatística III C (2021.1, 2021.2, 2024.1).\nMAT223 - Probabilidade I (2016.1).\nMATA44 - Estatística V (2023.1, 2023.2).\nMATC65 - Estatística em Psicologia (2024.1).\nMATD03 - Estatística Aplicada à Saúde (2022.2).\nMATD39 - Análise Descritiva e Exploratória de Dados A (2021.2, 2022.2, 2024.2, 2025.2).\nMATD45 - Sistemas de Informações e a Profissão do Estatístico (2015.2, 2016.2).\nMATD65 - Tópicos Especiais em Estatística - A (2015.2).\nMATF15 - Estatística Econômica II (2021.1, 2025.1).\nMATF59 - Estatística Básica para Humanidades (2023.1, 2023.2)."
+  },
+  {
+    "objectID": "cursos.html#materiais-de-aula-e-outros-textos",
+    "href": "cursos.html#materiais-de-aula-e-outros-textos",
+    "title": "Cursos",
+    "section": "Materiais de aula e outros textos",
+    "text": "Materiais de aula e outros textos\n\n\nSéries temporais"
+  },
+  {
+    "objectID": "projetos.html#atividades",
+    "href": "projetos.html#atividades",
+    "title": "Projetos e atividades",
+    "section": "Atividades",
+    "text": "Atividades\n\nMembro da comissão científica do 3rd SaLLy Day (2025).\nMembro da comissão científica do IX EBEST (2024).\nMembro da comissão científica do 2nd SaLLy Day (2024).\nMembro da comissão científica do 1st SaLLy Day (2023).\nMembro da comissão organizadora da Fourth Conference on Statistics and Data Science (2022).\nMembro da comissão organizadora da Third Conference on Statistics and Data Science (2021).\nMembro da comissão organizadora local da 61ª RBras - RBras & Departamento de Estatística do IME/UFBA (2016).\nCoordenador do Ciclo de Palestras - Departamento de Estatística do IME/UFBA (2015, 2016).\nMembro da comissão organizadora do Dia do Estatístico - Departamento de Estatística do IME/UFBA (2015).\nCoordenador dos Cursos de Extensão - Departamento de Estatística do IME/UFBA (2015)."
+  },
+  {
+    "objectID": "cursos.html#materiais-de-estudo",
+    "href": "cursos.html#materiais-de-estudo",
+    "title": "Cursos",
+    "section": "Materiais de estudo",
+    "text": "Materiais de estudo\n\n\nSéries temporais"
   }
 ]
