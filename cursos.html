@@ -328,7 +328,7 @@ ul.task-list li input[type="checkbox"] {
 <li>MATF15 - Estatística Econômica II (2021.1, 2025.1).</li>
 <li>MATF59 - Estatística Básica para Humanidades (2023.1, 2023.2).</li>
 </ul>
-<p><strong>Materiais de ensino</strong></p>
+<p><strong>Notas de aula e outros textos</strong></p>
 <ul class="lista-cursos">
 <li>
 <a class="curso-link" href="cursos/series-temporais/">Séries temporais</a>
@@ -769,6 +769,25 @@ document.addEventListener("DOMContentLoaded", function() {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p><span class="footer-main">© <span id="year"></span> <strong>Rodrigo de Souza Bulhões</strong></span><br> <small>Conteúdo sob licença Creative Commons BY-SA 4.0</small></p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+<script>
+  (function(){
+    var y = document.getElementById('year');
+    if (y) y.textContent = new Date().getFullYear();
+  })();
+</script>
 
 
 

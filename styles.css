@@ -130,3 +130,41 @@
 @media (max-width: 800px){
   .home-social{ justify-content: center; }
 }
+
+.quarto-category {
+  display: inline-block;
+  background-color: #f1f3f4;
+  color: #333;
+  font-size: 0.85em;
+  border-radius: 6px;
+  padding: 0.25em 0.6em;
+  margin-right: 0.3em;
+}
+
+.page-footer {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 2rem;
+  border-top: 1px solid #ddd;
+  padding-top: 0.6rem;
+  color: #666;
+}
+
+.page-footer strong {
+  color: #2c3e50;
+}
+
+[data-bs-theme="dark"] .page-footer {
+  border-top-color: #444;
+  color: #bbb;
+}
+
+[data-bs-theme="dark"] .page-footer strong {
+  color: #ecf0f1;
+}
+
+/* mantém a 1ª linha inteira sem quebrar antes do nome */
+.footer-main { white-space: nowrap; }
+
+/* (opcional) centraliza e dá um acabamento */
+.page-footer { text-align: center; }
