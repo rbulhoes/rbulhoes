@@ -9,7 +9,7 @@
   {
     "objectID": "projetos.html",
     "href": "projetos.html",
-    "title": "Projetos e atividades",
+    "title": "Projetos",
     "section": "",
     "text": "Coordenador do projeto “Análise bayesiana de dados espaço-temporais anisotrópicos sobre a qualidade do ar: novas metodologias para interpolação espacial e estimação de valores faltantes” - Edital 010/2024 da PRPPG/UFBA (JOVEMPESQ 2024).\nMembro do projeto “Lentes coloridas: profissionais LGBTQIAPN+ no audiovisual baiano” - Edital PG03/2023 de Chamamento Público da SECULT/BA (Lei Paulo Gustavo).\nAutor da tese “Spatial deformation in a Bayesian spatiotemporal model for matrix-variate responses”, desenvolvida sob a orientação dos professores Marina Paez e Dani Gamerman - Programa de Pós-Graduação em Estatística do IM/UFRJ, 2024.\nAutor da dissertação “Contribuições à análise de outliers em modelos de equações estruturais”, desenvolvida sob a orientação da professora Lúcia Barroso - Programa de Pós-Graduação em Probabilidade e Estatística do IME-USP, 2013.\n\n\n\n\n\nLíder de pesquisa em Modelagem Espaço-Temporal no Statistical Learning Laboratory (SaLLy), IME/UFBA.\nMembro do grupo de pesquisa do CNPq sobre Métodos Estatísticos Aplicados e Computacionais, IME/UFBA."
   },
@@ -65,9 +65,9 @@
   {
     "objectID": "projetos.html#outras-atividades",
     "href": "projetos.html#outras-atividades",
-    "title": "Projetos e atividades",
+    "title": "Projetos",
     "section": "Outras atividades",
-    "text": "Outras atividades\n\nCoordenador dos Cursos de Extensão - Dep. de Estatística do IME/UFBA (2015).\nMembro da comissão organizadora do Dia do Estatístico - Dep. de Estatística do IME/UFBA (2015).\nCoordenador do Ciclo de Palestras - Dep. de Estatística do IME/UFBA (2015, 2016).\nMembro da comissão organizadora local da 61ª RBras - RBras & Dep. de Estatística do IME/UFBA (2016).\nMembro de comissão organizadora da Third Conference on Statistics and Data Science (2021).\nMembro de comissão organizadora da Fourth Conference on Statistics and Data Science (2022).\nMembro de comissão científica do 1st SaLLy Day (2023).\nMembro de comissão científica do 2nd SaLLy Day (2024).\nMembro de comissão científica do IX EBEST (2024).\nMembro de comissão científica do 3rd SaLLy Day (2025)."
+    "text": "Outras atividades\n\nMembro da comissão científica do 3rd SaLLy Day (2025).\nMembro da comissão científica do IX EBEST (2024).\nMembro da comissão científica do 2nd SaLLy Day (2024).\nMembro da comissão científica do 1st SaLLy Day (2023).\nMembro da comissão organizadora da Fourth Conference on Statistics and Data Science (2022).\nMembro da comissão organizadora da Third Conference on Statistics and Data Science (2021).\nMembro da comissão organizadora local da 61ª RBras - RBras & Departamento de Estatística do IME/UFBA (2016).\nCoordenador do Ciclo de Palestras - Departamento de Estatística do IME/UFBA (2015, 2016).\nMembro da comissão organizadora do Dia do Estatístico - Departamento de Estatística do IME/UFBA (2015).\nCoordenador dos Cursos de Extensão - Departamento de Estatística do IME/UFBA (2015)."
   },
   {
     "objectID": "cursos.html#disciplinas",
@@ -95,6 +95,13 @@
     "href": "cursos.html#materiais-de-estudo",
     "title": "Cursos",
     "section": "Materiais de estudo",
-    "text": "Materiais de estudo\n\n\nSéries temporais"
+    "text": "Materiais de estudo\n\n\nAnálise de Séries Temporais"
+  },
+  {
+    "objectID": "projetos.html#atividades-de-pesquisa",
+    "href": "projetos.html#atividades-de-pesquisa",
+    "title": "Projetos",
+    "section": "",
+    "text": "Coordenador do projeto “Análise bayesiana de dados espaço-temporais anisotrópicos sobre a qualidade do ar: novas metodologias para interpolação espacial e estimação de valores faltantes” - Edital 010/2024 da PRPPG/UFBA (JOVEMPESQ 2024).\nMembro do projeto “Lentes coloridas: profissionais LGBTQIAPN+ no audiovisual baiano” - Edital PG03/2023 de Chamamento Público da SECULT/BA (Lei Paulo Gustavo).\nAutor da tese “Spatial deformation in a Bayesian spatiotemporal model for matrix-variate responses”, desenvolvida sob a orientação dos professores Marina Paez e Dani Gamerman - Programa de Pós-Graduação em Estatística do IM/UFRJ, 2024.\nAutor da dissertação “Contribuições à análise de outliers em modelos de equações estruturais”, desenvolvida sob a orientação da professora Lúcia Barroso - Programa de Pós-Graduação em Probabilidade e Estatística do IME-USP, 2013.\n\n\n\n\n\nLíder de pesquisa em Modelagem Espaço-Temporal no Statistical Learning Laboratory (SaLLy), IME/UFBA.\nMembro do grupo de pesquisa do CNPq sobre Métodos Estatísticos Aplicados e Computacionais, IME/UFBA."
   }
 ]

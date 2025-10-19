@@ -12,7 +12,7 @@
   color: #ecf0f1 !important;
 }
 
-/* Contêiner da intro */
+/* ===== Contêiner da intro ===== */
 .container.intro {
   display: flex;
   align-items: flex-start;   /* topo, não centro */
@@ -23,21 +23,21 @@
   margin-bottom: 2rem;
 }
 
-/* Coluna de texto (esquerda) */
+/* ===== Coluna de texto (esquerda) ===== */
 .text-section {
   flex: 1 1 65%;
   font-size: 1.05rem;
   line-height: 1.6;
 }
 
-/* Coluna da foto (direita) — versão única */
+/* ===== Coluna da foto (direita) ===== */
 .photo-section {
   flex: 1 1 30%;
-  text-align: center;          /* centraliza textos e imagens */
+  text-align: center;
   align-self: flex-start;
-  display: flex;               /* empilha ícones e foto */
+  display: flex;
   flex-direction: column;
-  align-items: center;         /* centraliza horizontalmente */
+  align-items: center;
 }
 
 .photo-section img {
@@ -46,13 +46,13 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-/* Empilha no mobile com a foto primeiro */
+/* ===== Empilha no mobile com a foto primeiro ===== */
 @media (max-width: 800px) {
   .container.intro { flex-direction: column-reverse; }
   .photo-section { margin-bottom: 1rem; }
 }
 
-/* Mapa responsivo */
+/* ===== Mapa responsivo ===== */
 .map-wrap {
   position: relative;
   width: 100%;
@@ -71,10 +71,22 @@
   height: 100%;
 }
 
-/* Lista manual de cursos */
-.lista-cursos { list-style: none; padding-left: 0; margin-left: 0; }
-.lista-cursos li { margin: 0.4rem 0; }
-.lista-cursos .curso-link { text-decoration: none; font-weight: 500; }
+/* ===== Lista manual de cursos ===== */
+.lista-cursos {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.lista-cursos li {
+  margin: 0.4rem 0;
+}
+
+.lista-cursos .curso-link {
+  text-decoration: none;
+  font-weight: 500;
+}
+
 .lista-cursos .curso-link::before {
   content: "📘";
   margin-right: 0.5em;
@@ -82,9 +94,8 @@
   line-height: 1;
 }
 
-/* ===== ÍCONES SOCIAIS NA LATERAL DIREITA ===== */
-/* container dos botões */
-.home-social{
+/* ===== ÍCONES SOCIAIS ===== */
+.home-social {
   display: flex;
   flex-wrap: wrap;
   gap: .5rem;
@@ -92,45 +103,46 @@
   margin-bottom: .75rem;
 }
 
-/* "bolachas" redondas de 42x42 */
-.home-social a{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  width:42px; height:42px;
-  border-radius:999px;
-  border:1px solid var(--rb-border, #e5e7eb);
-  text-decoration:none;
+.home-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  border: 1px solid var(--rb-border, #e5e7eb);
+  text-decoration: none;
   background: var(--bs-body-bg);
   transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
   box-shadow: 0 1px 3px rgba(0,0,0,.08);
 }
 
-/* o pictograma dentro (agora todos são imagens) */
-.home-social img{
-  width:22px; height:22px;
-  display:block;
+.home-social img {
+  width: 22px;
+  height: 22px;
+  display: block;
   object-fit: contain;
 }
 
-/* hover claro/escuro */
-.home-social a:hover{
+.home-social a:hover {
   transform: scale(1.06);
   box-shadow: 0 3px 10px rgba(0,0,0,.15);
   background: rgba(0,0,0,.04);
 }
-[data-bs-theme="dark"] .home-social a{
+
+[data-bs-theme="dark"] .home-social a {
   border-color: rgba(255,255,255,.25);
 }
-[data-bs-theme="dark"] .home-social a:hover{
+
+[data-bs-theme="dark"] .home-social a:hover {
   background: rgba(255,255,255,.08);
 }
 
-/* mobile: mantenha centralizado */
-@media (max-width: 800px){
-  .home-social{ justify-content: center; }
+@media (max-width: 800px) {
+  .home-social { justify-content: center; }
 }
 
+/* ===== CATEGORIAS ===== */
 .quarto-category {
   display: inline-block;
   background-color: #f1f3f4;
@@ -141,12 +153,13 @@
   margin-right: 0.3em;
 }
 
+/* ===== RODAPÉ (versão ajustada e fina) ===== */
 .page-footer {
   text-align: center;
   font-size: 0.85rem;
-  margin-top: 2rem;
+  margin-top: 0.5rem !important;   /* mínimo elegante — bem próximo do conteúdo */
+  padding-top: 0.35rem;
   border-top: 1px solid #ddd;
-  padding-top: 0.6rem;
   color: #666;
 }
 
@@ -154,6 +167,13 @@
   color: #2c3e50;
 }
 
+/* Evita espaço extra em páginas curtas */
+body > main.content {
+  margin-bottom: 0.4rem !important;
+  padding-bottom: 0 !important;
+}
+
+/* Tema escuro */
 [data-bs-theme="dark"] .page-footer {
   border-top-color: #444;
   color: #bbb;
@@ -163,8 +183,7 @@
   color: #ecf0f1;
 }
 
-/* mantém a 1ª linha inteira sem quebrar antes do nome */
-.footer-main { white-space: nowrap; }
-
-/* (opcional) centraliza e dá um acabamento */
-.page-footer { text-align: center; }
+/* Mantém a 1ª linha do rodapé (ano + nome) sem quebra */
+.footer-main {
+  white-space: nowrap;
+}
