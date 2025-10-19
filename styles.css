@@ -1,3 +1,9 @@
+
+---
+
+## 🟩 **styles.css (versão completa e atualizada)**
+
+```css
 /* ===== Estilo para o nome do site (navbar) ===== */
 .navbar-brand {
   font-variant: small-caps;
@@ -157,7 +163,7 @@
 .page-footer {
   text-align: center;
   font-size: 0.85rem;
-  margin-top: 0.5rem !important;   /* mínimo elegante — bem próximo do conteúdo */
+  margin-top: 0.5rem !important;
   padding-top: 0.35rem;
   border-top: 1px solid #ddd;
   color: #666;
@@ -186,4 +192,28 @@ body > main.content {
 /* Mantém a 1ª linha do rodapé (ano + nome) sem quebra */
 .footer-main {
   white-space: nowrap;
+}
+
+/* ===== TÍTULOS COM SMALL-CAPS E ÍCONES (HOME) ===== */
+.section-lead {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  margin: 1.2rem 0 .4rem;
+  font-variant: small-caps;
+  font-weight: 600;
+  letter-spacing: .5px;
+  color: var(--bs-body-color);
+  line-height: 1.2;
+}
+
+.section-lead .bi {
+  font-size: 1.05em;
+  transform: translateY(1px);
+}
+
+.section-lead + ul,
+.section-lead + blockquote,
+.section-lead + p {
+  margin-top: .25rem;
 }
