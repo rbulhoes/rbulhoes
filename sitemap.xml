@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rbulhoes.netlify.app/index.html</loc>
-    <lastmod>2025-10-19T12:33:40.411Z</lastmod>
+    <lastmod>2025-10-22T14:48:55.845Z</lastmod>
   </url>
   <url>
     <loc>https://rbulhoes.netlify.app/projetos.html</loc>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://rbulhoes.netlify.app/cursos.html</loc>
-    <lastmod>2025-10-19T11:58:46.378Z</lastmod>
+    <lastmod>2025-10-21T22:39:25.591Z</lastmod>
   </url>
   <url>
     <loc>https://rbulhoes.netlify.app/cursos/series-temporais/index.html</loc>
@@ -19,5 +19,17 @@
   <url>
     <loc>https://rbulhoes.netlify.app/cursos/series-temporais/aulas/aula01.html</loc>
     <lastmod>2025-10-17T17:35:55.054Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rbulhoes.netlify.app/cursos/eda/aulas/aula02.html</loc>
+    <lastmod>2025-10-21T23:42:56.237Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rbulhoes.netlify.app/cursos/eda/aulas/aula01.html</loc>
+    <lastmod>2025-10-21T23:11:49.695Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rbulhoes.netlify.app/cursos/eda/index.html</loc>
+    <lastmod>2025-10-21T23:06:40.110Z</lastmod>
   </url>
 </urlset>

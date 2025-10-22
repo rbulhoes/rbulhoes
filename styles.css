@@ -1,21 +1,47 @@
+/* ===== Navbar sóbria ===== */
 
----
-
-## 🟩 **styles.css (versão completa e atualizada)**
-
-```css
-/* ===== Estilo para o nome do site (navbar) ===== */
+/* Nome do site (marca) — discreto, elegante */
 .navbar-brand {
   font-variant: small-caps;
-  font-family: "Georgia", serif;
-  font-weight: 600;
-  letter-spacing: 1px;
-  color: #2c3e50 !important;
+  font-family: "Georgia", serif;     /* pode trocar por system-ui se preferir sem serifa */
+  font-weight: 700;
+  letter-spacing: .5px;               /* menos espaçado, mais sério */
+  font-size: 1.20rem;                 /* destaca sem gritar */
+  color: var(--bs-emphasis-color) !important;  /* integra com o tema */
+  text-shadow: none;
 }
 
-/* ===== Ajuste para o modo escuro ===== */
+/* Sem efeitos de hover chamativos */
+.navbar-brand:hover {
+  color: var(--bs-emphasis-color) !important;
+  text-shadow: none;
+}
+
+/* Modo escuro: usa token do tema, sem cor especial */
 [data-bs-theme="dark"] .navbar-brand {
-  color: #ecf0f1 !important;
+  color: var(--bs-emphasis-color) !important;
+}
+
+/* Links do menu mais discretos que a marca */
+.navbar .navbar-nav .nav-link {
+  font-weight: 500;
+  letter-spacing: 0;
+  color: var(--bs-body-color);
+  opacity: .92;                       /* dá leve recuo visual */
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus {
+  color: var(--bs-body-color);
+  opacity: 1;                         /* só ganha definição no hover */
+  text-decoration: none;
+}
+
+/* Estado ativo sutil (sem barra/underline colorida) */
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .show > .nav-link {
+  color: var(--bs-body-color);
+  opacity: 1;
 }
 
 /* ===== Contêiner da intro ===== */

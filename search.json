@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Início",
     "section": "",
-    "text": "Este é o meu site profissional, onde reúno materiais de cursos e projetos.\nSou Professor Adjunto do Instituto de Matemática e Estatística da Universidade Federal da Bahia, lotado no Departamento de Estatística.\n\n Títulos acadêmicos\n\n\nDoutorado em Estatística (D. Sc.), IM/UFRJ, 2024.\nMestrado em Estatística (M. Sc.), IME-USP, 2013.\nGraduação em Estatística (B. Sc.), IME/UFBA, 2009.\n\n\n Áreas de interesse\n\n\nGeoestatística, estatística espacial, modelagem espaço-temporal e ciência de dados geográficos;\nInferência bayesiana;\nModelos dinâmicos (ou modelos de espaço de estados);\nAnálise de variáveis latentes.\n\n\n Endereço profissional\n\n\nUniversidade Federal da Bahia\nInstituto de Matemática e Estatística\nRua Barão de Jeremoabo, s/n, CEP 40.170-110\nOndina, Salvador/BA, Brasil\nE-mail:  (rbulhoes at ufba dot br)"
+    "text": "Este é o meu site profissional, onde reúno materiais de cursos e projetos.\nSou Professor Adjunto do Instituto de Matemática e Estatística da Universidade Federal da Bahia, lotado no Departamento de Estatística.\n\n Formação acadêmica\n\n\nDoutorado em Estatística (D. Sc.), IM/UFRJ, 2024.\nMestrado em Estatística (M. Sc.), IME-USP, 2013.\nGraduação em Estatística (B. Sc.), IME/UFBA, 2009.\n\n\n Áreas de interesse\n\n\nGeoestatística, estatística espacial, modelagem espaço-temporal e ciência de dados geográficos;\nInferência bayesiana;\nModelos dinâmicos (ou modelos de espaço de estados);\nAnálise de variáveis latentes.\n\n\n Endereço profissional\n\n\nUniversidade Federal da Bahia\nInstituto de Matemática e Estatística\nRua Barão de Jeremoabo, s/n, CEP 40.170-110\nOndina, Salvador/BA, Brasil\nE-mail:  (rbulhoes at ufba dot br)"
   },
   {
     "objectID": "projetos.html",
@@ -95,7 +95,7 @@
     "href": "cursos.html#materiais-de-estudo",
     "title": "Cursos",
     "section": "Materiais de estudo",
-    "text": "Materiais de estudo\n\n\nAnálise de Séries Temporais"
+    "text": "Materiais de estudo\n\n\nAnálise Exploratória de Dados"
   },
   {
     "objectID": "projetos.html#atividades-de-pesquisa",
@@ -103,5 +103,82 @@
     "title": "Projetos",
     "section": "",
     "text": "Coordenador do projeto “Análise bayesiana de dados espaço-temporais anisotrópicos sobre a qualidade do ar: novas metodologias para interpolação espacial e estimação de valores faltantes”, financiado pela PRPPG/UFBA (Edital 010/2024 - JOVEMPESQ 2024).\nMembro do projeto “Lentes coloridas: profissionais LGBTQIAPN+ no audiovisual baiano”, financiado pela SECULT/BA (Edital PG03/2023 - Lei Paulo Gustavo).\nAutor da tese “Spatial deformation in a Bayesian spatiotemporal model for matrix-variate responses”, desenvolvida com apoio financeiro da CAPES e sob a orientação dos professores Marina Paez e Dani Gamerman no Programa de Pós-Graduação em Estatística do IM/UFRJ, 2024.\nAutor da dissertação “Contribuições à análise de outliers em modelos de equações estruturais”, desenvolvida com apoio financeiro do CNPq e sob a orientação da professora Lúcia Barroso no Programa de Pós-Graduação em Probabilidade e Estatística do IME-USP, 2013.\n\n\n\n\n\nLíder de pesquisa em Modelagem Espaço-Temporal no Statistical Learning Laboratory (SaLLy), IME/UFBA.\nMembro do grupo de pesquisa do CNPq sobre Métodos Estatísticos Aplicados e Computacionais, IME/UFBA.\nVice-tutor da Liga Acadêmica de Geodados e Estatística Espacial (a ser fundada por discentes), IME/UFBA.\n\n\n\n\n\n1º lugar na IASC Data Analysis Competition 2021 pelo trabalho “Spatio-temporal modelling of Brazilian wildfires”, ISI.\n\n\n\n\n\n“Deformação espacial em um modelo espaço-temporal bayesiano para respostas matriz-variadas”, apresentado no Ciclo de Seminários em Estatística e Ciência de Dados do IME/UFBA e a ser apresentado na XIX Escola de Modelos de Regressão.\n“Modelagem espaço-temporal bayesiana dos focos de incêndio no Brasil”, apresentado na abertura da StatWeek 2024 e a ser apresentado na abertura do X Fórum de Estatística e Ciência de Dados."
+  },
+  {
+    "objectID": "cursos/eda/aulas/aula02.html",
+    "href": "cursos/eda/aulas/aula02.html",
+    "title": "Análise de variáveis qualitativas",
+    "section": "",
+    "text": "AAA\nBBB"
+  },
+  {
+    "objectID": "cursos/eda/aulas/aula01.html",
+    "href": "cursos/eda/aulas/aula01.html",
+    "title": "Introdução ao R",
+    "section": "",
+    "text": "Dizemos que uma coleção de valores é uma série temporal se, para \\(t \\in \\{1, 2, \\ldots, T\\}\\), tivermos que \\(y_{t}\\) é…\nMateriais: - (adicione quando tiver) Slides (PDF) - (adicione quando tiver) Dados de exemplo"
+  },
+  {
+    "objectID": "cursos/eda/index.html",
+    "href": "cursos/eda/index.html",
+    "title": "Análise Exploratória de Dados",
+    "section": "",
+    "text": "Bem-vindos ao curso! Aqui você encontra aulas, materiais e código.\n\nAula 1: Introdução ao R\nAula 2: Análise de variáveis qualitativas\nAula 3:\nAula 4:"
+  },
+  {
+    "objectID": "cursos/eda/index.html#estrutura",
+    "href": "cursos/eda/index.html#estrutura",
+    "title": "Análise Exploratória de Dados",
+    "section": "",
+    "text": "Bem-vindos ao curso! Aqui você encontra aulas, materiais e código.\n\nAula 1: Introdução ao R\nAula 2: Análise de variáveis qualitativas\nAula 3:\nAula 4:"
+  },
+  {
+    "objectID": "cursos/eda/index.html#referências",
+    "href": "cursos/eda/index.html#referências",
+    "title": "Análise Exploratória de Dados",
+    "section": "Referências",
+    "text": "Referências\n\nMurteira, Bento. Análise Exploratória de Dados. Estatística Descritiva. Lisboa: McGrall-Hill, 1993."
+  },
+  {
+    "objectID": "cursos/eda/aulas/aula01.html#introdução",
+    "href": "cursos/eda/aulas/aula01.html#introdução",
+    "title": "Introdução ao R",
+    "section": "",
+    "text": "Dizemos que uma coleção de valores é uma série temporal se, para \\(t \\in \\{1, 2, \\ldots, T\\}\\), tivermos que \\(y_{t}\\) é…\nMateriais: - (adicione quando tiver) Slides (PDF) - (adicione quando tiver) Dados de exemplo"
+  },
+  {
+    "objectID": "cursos/eda/aulas/aula02.html#aula-2-introdução",
+    "href": "cursos/eda/aulas/aula02.html#aula-2-introdução",
+    "title": "Análise de variáveis qualitativas",
+    "section": "",
+    "text": "Conceitos básicos de séries temporais\nNotação, decomposição, exemplos\n\nMateriais: - (adicione quando tiver) Slides (PDF) - (adicione quando tiver) Dados de exemplo"
+  },
+  {
+    "objectID": "cursos/eda/aulas/aula02.html#materiais",
+    "href": "cursos/eda/aulas/aula02.html#materiais",
+    "title": "Análise de variáveis qualitativas",
+    "section": "Materiais",
+    "text": "Materiais\n\nCCC"
+  },
+  {
+    "objectID": "cursos/eda/aulas/aula02.html#introdução",
+    "href": "cursos/eda/aulas/aula02.html#introdução",
+    "title": "Análise de variáveis qualitativas",
+    "section": "",
+    "text": "AAA\nBBB"
+  },
+  {
+    "objectID": "cursos/eda/aulas/aula02.html#análise-de-variáveis-qualitativas",
+    "href": "cursos/eda/aulas/aula02.html#análise-de-variáveis-qualitativas",
+    "title": "Análise de variáveis qualitativas",
+    "section": "",
+    "text": "AAA\nBBB"
+  },
+  {
+    "objectID": "cursos/eda/aulas/aula02.html#análise-de-associação-entre-variáveis-qualitativas",
+    "href": "cursos/eda/aulas/aula02.html#análise-de-associação-entre-variáveis-qualitativas",
+    "title": "Análise de variáveis qualitativas",
+    "section": "Análise de associação entre variáveis qualitativas",
+    "text": "Análise de associação entre variáveis qualitativas\n\nPercentual por linhas e colunas\n\n\nCoeficientes de associação\n\nCCC"
   }
 ]
