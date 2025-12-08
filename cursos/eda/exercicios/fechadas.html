@@ -74,6 +74,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script src="../../../site_libs/kePrint-0.0.1/kePrint.js"></script>
+
+<link href="../../../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -326,6 +330,7 @@ window.Quarto = {
   <li><a href="#coeficientes-de-contingência" id="toc-coeficientes-de-contingência" class="nav-link" data-scroll-target="#coeficientes-de-contingência">Coeficientes de contingência</a></li>
   <li><a href="#medidas-de-tendência-central-e-quantis" id="toc-medidas-de-tendência-central-e-quantis" class="nav-link" data-scroll-target="#medidas-de-tendência-central-e-quantis">Medidas de tendência central e quantis</a></li>
   <li><a href="#medidas-de-dispersão-assimetria-e-curtose" id="toc-medidas-de-dispersão-assimetria-e-curtose" class="nav-link" data-scroll-target="#medidas-de-dispersão-assimetria-e-curtose">Medidas de dispersão, assimetria e curtose</a></li>
+  <li><a href="#assuntos-diversos" id="toc-assuntos-diversos" class="nav-link" data-scroll-target="#assuntos-diversos">Assuntos diversos</a></li>
   </ul>
 </nav>
     </div>
@@ -406,7 +411,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 </style>
 <div class="print-bar">
-<button class="btn-print" title="Versão para impressão" onclick="
+<p><button class="btn-print" title="Versão para impressão" onclick="
       try { document.querySelectorAll('details').forEach(d=>d.open=true); } catch(e){}
       const root = document.documentElement;
       const prev = root.getAttribute('data-bs-theme');
@@ -419,13 +424,7 @@ document.addEventListener("DOMContentLoaded", () => {
       window.addEventListener('afterprint', restore);
       window.print();
       return false;
-    ">
-<!-- Ícone printer (SVG inline) -->
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px">
-<path d="M6 9V2h12v7"></path> <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path> <path d="M6 14h12v8H6z"></path>
-</svg>
-Versão para impressão
-</button>
+    "> <!-- Ícone printer (SVG inline) --> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px"> <path d="M6 9V2h12v7"></path> <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path> <path d="M6 14h12v8H6z"></path> </svg> Versão para impressão </button></p>
 </div>
 </div>
 <!-- ====== ESTILOS ====== -->
@@ -913,69 +912,37 @@ Comentários
 </div>
 <p>Um estudo acerca de cursos de qualificação profissional envolveu a participação de 100 trabalhadores. A amostra foi classificada em função da rotatividade (número de empregos em até 30 dias após a realização do curso) e da opinião do trabalhador a respeito do curso (satisfação = 0, se o trabalhador entrevistado estava insatisfeito, ou satisfação = 1, se o trabalhador estava satisfeito com o curso realizado).</p>
 <p>Os resultados desse estudo são apresentados na tabela a seguir.</p>
-<table style="border-collapse: collapse; margin: auto; text-align: center;">
-<tbody><tr>
-<th rowspan="2" style="border: 1px solid black; padding: 6px;">
-Satisfação
-</th>
-<th colspan="2" style="border: 1px solid black; padding: 6px;">
-Rotatividade
-</th>
-<th rowspan="2" style="border: 1px solid black; padding: 6px;">
-Total
-</th>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Satisfação</th>
+<th>Rotatividade</th>
+<th>Total</th>
 </tr>
-<tr>
-<th style="border: 1px solid black; padding: 6px;">
-0
-</th>
-<th style="border: 1px solid black; padding: 6px;">
-1
-</th>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>1</td>
+<td></td>
 </tr>
-<tr>
-<td style="border: 1px solid black; padding: 6px;">
-0
-</td>
-<td style="border: 1px solid black; padding: 6px;">
-10
-</td>
-<td style="border: 1px solid black; padding: 6px;">
-10
-</td>
-<td style="border: 1px solid black; padding: 6px;">
-20
-</td>
+<tr class="even">
+<td>0</td>
+<td>10</td>
+<td>10</td>
 </tr>
-<tr>
-<td style="border: 1px solid black; padding: 6px;">
-1
-</td>
-<td style="border: 1px solid black; padding: 6px;">
-60
-</td>
-<td style="border: 1px solid black; padding: 6px;">
-20
-</td>
-<td style="border: 1px solid black; padding: 6px;">
-80
-</td>
+<tr class="odd">
+<td>1</td>
+<td>60</td>
+<td>20</td>
 </tr>
-<tr>
-<th style="border: 1px solid black; padding: 6px;">
-Total
-</th>
-<th style="border: 1px solid black; padding: 6px;">
-70
-</th>
-<th style="border: 1px solid black; padding: 6px;">
-30
-</th>
-<th style="border: 1px solid black; padding: 6px;">
-100
-</th>
+<tr class="even">
+<td>Total</td>
+<td>70</td>
+<td>30</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <p>Considerando essas informações, julgue os dois itens subsequentes.</p>
 <div class="mcq" data-answer="B">
 <p>O valor da estatística qui-quadrado do teste de independência entre a rotatividade e a satisfação é superior a 5.</p>
@@ -1478,6 +1445,90 @@ Comentários
 <p>Murteira (1993) denota a média aritmética, a mediana e a moda por <span class="math inline">\(\bar{x}\)</span>, <span class="math inline">\(\tilde{x}\)</span> e <span class="math inline">\(\dot{x}\)</span>, respectivamente.</p>
 </details>
 </div>
+<div class="mcq" data-answer="A">
+<p>Um conjunto de observações ordenadas <span class="math inline">\(x_{(i)}\)</span> é perfeitamente simétrico se satisfaz a condição: <span class="math inline">\(q_{(0{,}5)} – x_{(i)} = x_{(n + 1 – i)} – q_{(0{,}5)}\)</span>, para todo <span class="math inline">\(i\)</span>, em que <span class="math inline">\(q_{(0{,}5)}\)</span> é a mediana ou segundo quartil, <span class="math inline">\(i = 1, 2, \ldots, n/2\)</span>, se <span class="math inline">\(n\)</span> for par e <span class="math inline">\(i = 1, 2, \ldots, (n+1)/2\)</span>, se <span class="math inline">\(n\)</span> for ímpar. Desta forma, o conjunto de observações <span class="math inline">\(x_{(i)} = 12, 20, 35, 45, 56, 70, 78\)</span>:</p>
+<div class="options">
+<ol type="1">
+<li>não é perfeitamente simétrico, pois, <span class="math inline">\(q_{(0{,}5)} – x_{(i)} \neq x_{(n + 1 – i)} – q_{(0{,}5)}\)</span>, para <span class="math inline">\(i = 3\)</span>.</li>
+<li>não é perfeitamente simétrico, pois, <span class="math inline">\(q_{(0{,}5)} – x_{(i)} \neq x_{(n + 1 – i)} – q_{(0{,}5)}\)</span>, para <span class="math inline">\(i = 1\)</span>.</li>
+<li>não é perfeitamente simétrico, pois, <span class="math inline">\(q_{(0{,}5)} – x_{(i)} \neq x_{(n + 1 – i)} – q_{(0{,}5)}\)</span>, para <span class="math inline">\(i = 2\)</span>.</li>
+<li>é perfeitamente simétrico, pois, <span class="math inline">\(q_{(0{,}5)} – x_{(i)} \neq x_{(n + 1 – i)} – q_{(0{,}5)}\)</span>, para todo <span class="math inline">\(i\)</span>.</li>
+<li>é perfeitamente simétrico, pois, <span class="math inline">\(q_{(0{,}5)} – x_{(i)} = x_{(n + 1 – i)} – q_{(0{,}5)}\)</span>, para todo <span class="math inline">\(i\)</span>.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: EsFCEx CFO/QC - Estatística, 2023.</p>
+</details>
+</div>
+<div class="mcq" data-answer="B">
+<p>A tabela a seguir representa a distribuição das idades dos alunos do curso de Direito de uma faculdade.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Idade</th>
+<th style="text-align: center;">Alunos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">17 a 23</td>
+<td style="text-align: center;">15</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">23 a 29</td>
+<td style="text-align: center;">23</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">29 a 35</td>
+<td style="text-align: center;">06</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">35 a 41</td>
+<td style="text-align: center;">09</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">41 a 47</td>
+<td style="text-align: center;">04</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">47 a 53</td>
+<td style="text-align: center;">03</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">53 a 59</td>
+<td style="text-align: center;">02</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">59 a 65</td>
+<td style="text-align: center;">03</td>
+</tr>
+</tbody>
+</table>
+<p>Considerando os dados, as afirmações a seguir foram elaboradas.</p>
+<p><strong>I.</strong> O primeiro Quartil e a Mediana são valores pertencentes ao segundo intervalo de classe e o terceiro Quartil é um valor pertencente ao quarto intervalo de classe.</p>
+<p><strong>II.</strong> O primeiro Quartil, a Mediana e o terceiro Quartil são valores pertencentes ao segundo, terceiro e quarto intervalos de classes, respectivamente.</p>
+<p><strong>III.</strong> O nonagésimo percentil é um valor pertencente ao sexto intervalo de classe e a Mediana é um valor pertencente ao segundo intervalo de classe.</p>
+<p><strong>IV.</strong> O décimo percentil e o primeiro quartil são valores pertencentes ao primeiro intervalo de classe e o terceiro Quartil é um valor pertencente ao quarto intervalo de classe.</p>
+<p>São <strong>CORRETAS</strong> apenas as afirmações:</p>
+<div class="options">
+<ol type="1">
+<li><strong>I</strong> e <strong>II</strong>.</li>
+<li><strong>I</strong> e <strong>III</strong>.</li>
+<li><strong>II</strong> e <strong>IV</strong>.</li>
+<li><strong>II</strong> e <strong>V</strong>.</li>
+<li><strong>III</strong> e <strong>V</strong>.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: TRT da 3ª Região - Analista Judiciário - Estatística, 2022.</p>
+</details>
+</div>
 </section>
 <section id="medidas-de-dispersão-assimetria-e-curtose" class="level2">
 <h2 class="anchored" data-anchor-id="medidas-de-dispersão-assimetria-e-curtose">Medidas de dispersão, assimetria e curtose</h2>
@@ -1574,6 +1625,467 @@ Comentários
 Comentários
 </summary>
 <p>Fonte: TRT da 5ª Região - Analista Judiciário - Estatística, 2008.</p>
+</details>
+</div>
+<p>A questão a seguir não tem mais relação com as anteriores.</p>
+<div class="mcq" data-answer="E">
+<p>A quantidade de novos processos (P) em Tribunais de Justiça dos 27 estados do Brasil é uma variável com média 16 mil e moda igual a 7 mil. Com base apenas em tais informações é possível afirmar que:</p>
+<div class="options">
+<ol type="1">
+<li>A distribuição dos processos é assimétrica à esquerda.</li>
+<li><span class="math inline">\(Me(P) &lt; 15\)</span> mil.</li>
+<li><span class="math inline">\(Q1(P) &lt; 6\)</span> mil, primeiro quartil da distribuição.</li>
+<li><span class="math inline">\(Me(P) &gt; 10\)</span> mil.</li>
+<li><span class="math inline">\(Q3(P) &gt; 7\)</span> mil, terceiro quartil da distribuição.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: TJ/BA - Analista Judiciário - Estatística, 2015.</p>
+<p>Dicas: Lembre-se da relação entre média, mediana e moda na classificação da assimetria e note o terceiro quartil não pode ser inferior à mediana.</p>
+</details>
+</div>
+<div class="mcq" data-answer="D">
+<p>Em um órgão público, verifica-se que a média aritmética dos salários dos funcionários com nível superior supera a média aritmética dos restantes dos funcionários em R$ 2.000,00. Sabe-se que o desvio padrão dos salários dos funcionários com nível superior é igual a R$ 500,00 e dos restantes dos funcionários é igual a R$ 300,00, com os respectivos coeficientes de variação iguais. Se 40% dos funcionários possuem nível superior, então a média aritmética dos salários de todos os funcionários deste órgão público é igual a</p>
+<div class="options">
+<ol type="1">
+<li>R$ <span class="math inline">\(3.500{,}00\)</span>.</li>
+<li>R$ <span class="math inline">\(3.200{,}00\)</span>.</li>
+<li>R$ <span class="math inline">\(3.600{,}00\)</span>.</li>
+<li>R$ <span class="math inline">\(3.800{,}00\)</span>.</li>
+<li>R$ <span class="math inline">\(3.900{,}00\)</span>.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: TRT da 5ª Região - Analista Judiciário - Estatística, 2013.</p>
+</details>
+</div>
+<div class="mcq" data-answer="E">
+<p>Seja <span class="math inline">\(X_{i}\)</span> um elemento de uma população de tamanho 20, com <span class="math inline">\(1 \leq i \leq 20\)</span>. Sabe-se que <span class="math display">\[\sum_{i=1}^{20} X_{i} = 300 \,\,\textrm{e}\,\, \sum_{i=1}^{20} X_{i}^{2} = 4.731{,}2.\]</span> O coeficiente de variação desta população apresenta um valor <span class="math inline">\(c\)</span>, tal que</p>
+<div class="options">
+<ol type="1">
+<li><span class="math inline">\(c &lt; 21{,}0\%\)</span>.</li>
+<li><span class="math inline">\(21{,}0\% \leq c &lt; 21{,}5\%\)</span>.</li>
+<li><span class="math inline">\(21{,}5\% \leq c &lt; 22{,}0\%\)</span>.</li>
+<li><span class="math inline">\(22{,}0\% \leq c &lt; 22{,}5\%\)</span>.</li>
+<li><span class="math inline">\(c \geq 22{,}5\%\)</span>.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: TRT da 5ª Região - Analista Judiciário - Estatística, 2013.</p>
+</details>
+</div>
+<div class="mcq" data-answer="A">
+<p>Um laboratório está avaliando a compra de uma estufa de certa marca, que possui temperatura média de operação igual a 200 graus Fahrenheit, com desvio-padrão de 10 graus Fahrenheit. Para elaborar um manual de operação, a temperatura deve ser medida em graus Celsius. Usando a expressão simplificada <span class="math inline">\(C = 0{,}6 F - 18\)</span> para converter graus Fahrenheit em graus Celsius, o Estatístico responsável encontrou que a média e o desvio-padrão da temperatura de operação da estufa são, respectivamente:</p>
+<div class="options">
+<ol type="1">
+<li>102 graus Celsius e 6 graus Celsius.</li>
+<li>102 graus Celsius e 36 graus Celsius.</li>
+<li>120 graus Celsius e 6 graus Celsius.</li>
+<li>120 graus Celsius e 36 graus Celsius.</li>
+<li>182 graus Celsius e 6 graus Celsius.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: ENADE - Estatística, 2009.</p>
+</details>
+</div>
+<div class="mcq" data-answer="E">
+<p>A prefeitura de uma cidade quer conhecer o padrão de consumo mensal de energia elétrica e de água das duas de suas regiões: uma delas com residências de alto padrão de construção e outra com resistências de baixo padrão de construção. O Estatístico responsável pelo estudo solicitou, junto às companhias de distribuição de energia elétrica e de água, os valores para o consumo mensal de energia elétrica e de água das residências de uma amostra aleatória de cada região. Por questões de sigilo, as companhias distribuidoras forneceram um resumo dos dados solicitados, a saber, a média e o desvio-padrão do consumo nas residências amostradas, apresentados na tabela a seguir.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table caption-top table-sm table-striped small">
+<caption>Tabela com valores de tamanho de amostra, média e desvio-padrão das variáveis estudadas</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;" data-quarto-table-cell-role="th">Região</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">Insumo</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">Número de residências amostradas</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">Média amostral</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">Desvio-padrão amostral</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td rowspan="2" style="text-align: center; vertical-align: middle !important;">Alto Padrão</td>
+<td style="text-align: center;">Energia elétrica (kW/h)</td>
+<td rowspan="2" style="text-align: center; vertical-align: middle !important;">200</td>
+<td style="text-align: center;">240</td>
+<td style="text-align: center;">60</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Água (m³)</td>
+<td style="text-align: center;">750</td>
+<td style="text-align: center;">75</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" style="text-align: center; vertical-align: middle !important;">Baixo Padrão</td>
+<td style="text-align: center;">Energia elétrica (kW/h)</td>
+<td rowspan="2" style="text-align: center; vertical-align: middle !important;">600</td>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;">60</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Água (m³)</td>
+<td style="text-align: center;">200</td>
+<td style="text-align: center;">40</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Com base nas informações dessa tabela, o Estatístico conclui que</p>
+<div class="options">
+<ol type="1">
+<li>as residências de alto padrão apresentam variabilidade relativa do consumo de água maior do que aquelas de baixo padrão.</li>
+<li>as residências de alto padrão e de baixo padrão apresentam variabilidades relativas similares quanto ao consumo de energia elétrica.</li>
+<li>entre as residências de baixo padrão, o consumo de água apresenta variabilidade relativa menor do que a do consumo de energia elétrica.</li>
+<li>entre as residências de baixo padrão, o consumo de água apresenta variabilidade relativa similar à do consumo de energia elétrica.</li>
+<li>entre as residências de alto padrão, o consumo de água apresenta variabilidade relativa menor do que a variabilidade relativa do consumo de energia elétrica.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: ENADE - Estatística, 2009.</p>
+</details>
+</div>
+<div class="mcq" data-answer="E">
+<p>Comparando-se medidas de tendência central, é possível determinar o tipo de simetria de uma curva de frequência. Se um conjunto de dados gera uma curva de frequências assimétrica à direita, então:</p>
+<div class="options">
+<ol type="1">
+<li><span class="math inline">\(\bar{x} &lt; Md &lt; Mo\)</span>.</li>
+<li><span class="math inline">\(Md &lt; \bar{x} &lt; Mo\)</span>.</li>
+<li><span class="math inline">\(Md &lt; Mo &lt; \bar{x}\)</span>.</li>
+<li><span class="math inline">\(Mo &lt; \bar{x} &lt; Md\)</span>.</li>
+<li><span class="math inline">\(Mo &lt; Md &lt; \bar{x}\)</span>.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: TRT da 3ª Região - Analista Judiciário - Estatística, 2022.</p>
+</details>
+</div>
+<div class="mcq" data-answer="B">
+<p>Dados os conjuntos de números <span class="math inline">\(A = \{−2,−1,0,1,2\}\)</span> e <span class="math inline">\(B = \{44,57,70,83,96\}\)</span>, podemos afirmar, de acordo com as propriedades do desvio padrão, que o desvio padrão de <span class="math inline">\(B\)</span> é igual ao</p>
+<div class="options">
+<ol type="1">
+<li>desvio padrão de <span class="math inline">\(A\)</span>.</li>
+<li>desvio padrão de <span class="math inline">\(A\)</span>, multiplicado pela constante 13.</li>
+<li>desvio padrão de <span class="math inline">\(A\)</span>, multiplicado pela raiz quadrada da constante 70.</li>
+<li>desvio padrão de <span class="math inline">\(A\)</span> mais a constante 70.</li>
+<li>desvio padrão de <span class="math inline">\(A\)</span>, multiplicado pela constante 13, e esse resultado somado a 70.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: TRT da 3ª Região - Analista Judiciário - Estatística, 2022.</p>
+</details>
+</div>
+<div class="mcq" data-answer="C">
+<p>Observou-se que o tempo gasto no atendimento dos clientes, que utilizam os guichê de um banco, em minutos nas segundas-feiras são: 2, 5, 7, 9, 12. Qual é a variância do tempo gasto no atendimento?</p>
+<div class="options">
+<ol type="1">
+<li><span class="math inline">\(14/4\)</span>.</li>
+<li><span class="math inline">\(58/5\)</span>.</li>
+<li><span class="math inline">\(58/4\)</span>.</li>
+<li><span class="math inline">\(45/4\)</span>.</li>
+<li><span class="math inline">\(45/5\)</span>.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: Prefeitura de Camaçari/BA - Estatístico, 2010</p>
+</details>
+</div>
+<p>Uma pesquisa levantou preços de frete para o transporte de determinado produto. A tabela a seguir apresenta a distribuição de frequência dos preços fornecidos por 100 transportadoras.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Preço <span class="math inline">\(P\)</span> (em dólar)</th>
+<th style="text-align: center;"><span class="math inline">\(0 \leq P &lt; 4\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(4 \leq P &lt; 8\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(8 \leq P &lt; 12\)</span></th>
+<th style="text-align: center;">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Número de transportadoras</strong></td>
+<td style="text-align: center;">60</td>
+<td style="text-align: center;">30</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">100</td>
+</tr>
+</tbody>
+</table>
+<p>Com base nessas informações, julgue os quatro itens que se seguem.</p>
+<div class="mcq" data-answer="A">
+<p>O preço médio é igual a US$ 4,00.</p>
+<div class="options">
+<ol type="1">
+<li>Certo.</li>
+<li>Errado.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: CODEBA - Estatístico, 2006.</p>
+</details>
+</div>
+<div class="mcq" data-answer="B">
+<p>A curtose é nula.</p>
+<div class="options">
+<ol type="1">
+<li>Certo.</li>
+<li>Errado.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: CODEBA - Estatístico, 2006.</p>
+</details>
+</div>
+<div class="mcq" data-answer="B">
+<p>A mediana amostral é igual a US$ 6,00.</p>
+<div class="options">
+<ol type="1">
+<li>Certo.</li>
+<li>Errado.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: CODEBA - Estatístico, 2006.</p>
+</details>
+</div>
+<div class="mcq" data-answer="B">
+<p>O primeiro quartil é maior ou igual a US$ 2,00.</p>
+<div class="options">
+<ol type="1">
+<li>Certo.</li>
+<li>Errado.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: CODEBA - Estatístico, 2006.</p>
+</details>
+</div>
+<p>As próximas questões não têm relação com às anteriores.</p>
+<div class="mcq" data-answer="E">
+<p>Um grupo de alunos é submetido a uma avaliação, e foram obtidas as seguintes notas: 3, 4, 5, 6 e 7. Com base nessas informações, assinale a alternativa que apresenta o desvio-padrão desse grupo.</p>
+<div class="options">
+<ol type="1">
+<li><span class="math inline">\(1{,}15\)</span>.</li>
+<li><span class="math inline">\(1{,}21\)</span>.</li>
+<li><span class="math inline">\(1{,}79\)</span>.</li>
+<li><span class="math inline">\(1{,}61\)</span>.</li>
+<li><span class="math inline">\(1{,}41\)</span>.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: EBSERH/HUPES - UFBA - Analista Administrativo (Estatística), 2014.</p>
+</details>
+</div>
+<div class="mcq" data-answer="E">
+<p>Assinale a alternativa que apresenta os fatores que compõem a regra dos cinco números.</p>
+<div class="options">
+<ol type="1">
+<li>Média, mediana, menor valor, maior valor e variância.</li>
+<li>Moda, mediana, primeiro quartil, média e desvio-padrão.</li>
+<li>Desvio-padrão, média, variância, quartil e covariância.</li>
+<li>Mediana, variância, quartil, desvio-padrão e média.</li>
+<li>Menor valor, primeiro quartil, mediana, terceiro quartil e maior valor.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: EBSERH/HUPES - UFBA - Analista Administrativo (Estatística), 2014.</p>
+</details>
+</div>
+<div class="mcq" data-answer="E">
+<p>Em uma empresa, foi implementado um programa de controle estatístico da qualidade. Para tanto, coletou-se uma amostra de sete elementos. Dessa amostra, foram extraídos a esperança matemática de quatro unidades, o desvio-padrão de 0,93 e a variância de 0,86. Com base nesses dados, assinale a alternativa que apresenta o coeficiente de variação da amostra.</p>
+<div class="options">
+<ol type="1">
+<li><span class="math inline">\(8{,}01\%\)</span>.</li>
+<li><span class="math inline">\(12{,}50\%\)</span>.<br>
+</li>
+<li><span class="math inline">\(19{,}36\%\)</span>.</li>
+<li><span class="math inline">\(21{,}50\%\)</span>.</li>
+<li><span class="math inline">\(23{,}25\%\)</span>.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: EBSERH/HUPES - UFBA - Analista Administrativo (Estatística), 2014.</p>
+</details>
+</div>
+</section>
+<section id="assuntos-diversos" class="level2">
+<h2 class="anchored" data-anchor-id="assuntos-diversos">Assuntos diversos</h2>
+<div class="mcq" data-answer="D">
+<p>Os fenômenos mundiais de crescimento e de declínio florestal atraem grande interesse público e científico. O gráfico a seguir foi baseado nos dados do artigo <em>“Relationship among crown condition, growth and stand nutrition in seven northern Vermont sugarbushes”</em> (<em>Canad. J. of Forest Res.</em>, 1995, p.&nbsp;386-397) que apresentava um diagrama de dispersão do secamento médio dos ramos (%) versus o pH do solo, e os diagramas de caixa (<em>boxplots</em>) das variáveis individualmente. O secamento dos ramos é um indicador de retardamento no crescimento da planta e, quanto mais baixo o pH do solo, maior a sua acidez. A amostra consistiu de 19 pares das medidas tomadas na região.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ENADE2009_Q25.png" class="img-fluid figure-img" width="480"></p>
+<figcaption>Diagrama de dispersão e boxplots das duas variáveis de estudo</figcaption>
+</figure>
+</div>
+<p>Analisando-se o gráfico, é CORRETO afirmar que as distribuições de pH do solo e do secamento das plantas apresentam,</p>
+<div class="options">
+<ol type="1">
+<li>individualmente, forte assimetria com cauda à esquerda, e pode-se estabelecer uma relação de causa-e-efeito entre as duas variáveis.</li>
+<li>moderada assimetria com cauda à direita e uma forte associação entre essas duas variáveis.</li>
+<li>moderada assimetria com cauda à direita, e moderada correlação entre essas duas variáveis.</li>
+<li>respectivamente, assimetria com cauda à direita e assimetria com cauda à esquerda, e moderada correlação entre essas variáveis.</li>
+<li>respectivamente, assimetria com cauda à esquerda e assimetria com cauda à direita, e moderada correlação entre essas variáveis.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: ENADE - Estatística, 2009.</p>
+</details>
+</div>
+<div class="mcq" data-answer="B">
+<p>Uma empresa de refrigerantes enche garrafas especificadas para conter dois litros da bebida. O processo de envasamento é mecanizado. Sendo assim, existe uma variação no volume que é dispensado pela máquina. Para evitar desperdício da bebida ou garrafas com volume muito abaixo do especificado, o Estatístico responsável pelo controle de qualidade da empresa acompanha, diariamente, esse processo de produção. Para tanto, a cada dia, ele seleciona uma amostra aleatória de 50 garrafas envasadas e mede o volume de seu conteúdo. A figura a seguir mostra os resultados das amostras de sete dias consecutivos, resumidos em <em>boxplots</em> (diagramas de caixa ou desenhos esquemáticos). Os resultados do 1º dia mostram um processo de envasamento satisfatório. Ao final do 4º dia foi feito um ajuste nas máquinas envasadoras.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ENADE2009_Q37.png" class="img-fluid figure-img" width="480"></p>
+<figcaption>Boxplots do volume dispensado.</figcaption>
+</figure>
+</div>
+<p>Considere as seguintes afirmativas baseadas na figura:</p>
+<ul>
+<li><p><strong>A1.</strong> O volume mediano manteve-se próximo do valor nominal até o 4º dia.</p></li>
+<li><p><strong>A2.</strong> O processo do 2º ao 4º dias não pode ser considerado satisfatório.</p></li>
+<li><p><strong>A3.</strong> O ajuste feito nas máquinas ao final do 4º dia teve o efeito de retornar a variabilidade do processo ao nível considerado satisfatório.</p></li>
+<li><p><strong>A4.</strong> O processo no 5º e no 6º dias não pode ser considerado satisfatório.</p></li>
+</ul>
+<p>Considerando as possíveis justificativas para as afirmativas acima (não necessariamente na mesma ordem):</p>
+<ul>
+<li><p><strong>R1.</strong> porque a distância interquartílica dos volumes está próxima ao valor considerado satisfatório.</p></li>
+<li><p><strong>R2.</strong> porque o traço horizontal dentro das caixas dos <em>boxplots</em> está próximo ao valor de 2000 ml.</p></li>
+<li><p><strong>R3.</strong> porque o traço mediano dos volumes está abaixo do especificado.</p></li>
+<li><p><strong>R4.</strong> porque a variabilidade dos volumes despendidos cresceu.</p></li>
+</ul>
+<p>Escolha a alternativa que associa as afirmativas com duas justificativas corretas:</p>
+<div class="options">
+<ol type="1">
+<li><span class="math inline">\(\mathbf{A1}\)</span> com <span class="math inline">\(\mathbf{R2}\)</span>; <span class="math inline">\(\mathbf{A2}\)</span> com <span class="math inline">\(\mathbf{R3}\)</span>.</li>
+<li><span class="math inline">\(\mathbf{A1}\)</span> com <span class="math inline">\(\mathbf{R2}\)</span>; <span class="math inline">\(\mathbf{A3}\)</span> com <span class="math inline">\(\mathbf{R1}\)</span>.</li>
+<li><span class="math inline">\(\mathbf{A1}\)</span> com <span class="math inline">\(\mathbf{R4}\)</span>; <span class="math inline">\(\mathbf{A3}\)</span> com <span class="math inline">\(\mathbf{R1}\)</span>.</li>
+<li><span class="math inline">\(\mathbf{A2}\)</span> com <span class="math inline">\(\mathbf{R2}\)</span>; <span class="math inline">\(\mathbf{A4}\)</span> com <span class="math inline">\(\mathbf{R3}\)</span>.</li>
+<li><span class="math inline">\(\mathbf{A2}\)</span> com <span class="math inline">\(\mathbf{R4}\)</span>; <span class="math inline">\(\mathbf{A4}\)</span> com <span class="math inline">\(\mathbf{R4}\)</span>.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: ENADE - Estatística, 2009.</p>
+</details>
+</div>
+<div class="mcq" data-answer="B">
+<p>Uma biblioteca decidiu analisar os dados referentes ao número de empréstimos dos usuários no último mês, e obteve as seguintes estatísticas: Média = 30 empréstimos por dia; Mediana = 35 empréstimos por dia; Mínimo = 0 empréstimos por dia; Máximo = 48 empréstimos por dia. Nesse contexto, é correto afirmar que:</p>
+<div class="options">
+<ol type="1">
+<li>considerando as estatísticas apresentadas, a distribuição dos dados deve ser simétrica.</li>
+<li>a média é influenciada por valores extremos.</li>
+<li>quanto maior a magnitude do máximo, mais a mediana torna-se maior que a média.</li>
+<li>considerando as estatísticas apresentadas, pode-se deduzir que a distribuição dos dados é assimétrica positiva.</li>
+<li>considerando as estatísticas apresentadas, pode-se deduzir que a mediana foi muito afetada pelos extremos.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: EsFCEx CFO/QC - Estatística, 2023.</p>
+</details>
+</div>
+<div class="mcq" data-answer="D">
+<p>Considere o conjunto de dados dos funcionários de uma empresa em que estão disponíveis as variáveis <span class="math inline">\(X\)</span> e <span class="math inline">\(Y\)</span>, sendo a variável <span class="math inline">\(X\)</span> uma variável categórica que contém a função que o funcionário desempenha na empresa e a variável <span class="math inline">\(Y\)</span> uma variável numérica com os salários dos funcionários. Para calcular o valor médio dos salários de acordo com a função desempenhada na empresa utilizando o software <strong>R</strong> pode-se executar o comando:</p>
+<div class="options">
+<ol type="1">
+<li>apply(Y, X, mean)</li>
+<li>mean(Y, X)</li>
+<li>apply(Y, X, media)</li>
+<li>tapply(Y, X, mean)</li>
+<li>tapply(Y, X, media)</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: EsFCEx CFO/QC - Estatística, 2023.</p>
+</details>
+</div>
+<div class="mcq" data-answer="C">
+<p>O diagrama a seguir é chamado Box Plot (Diagrama de Caixa). Ele está representando uma amostra de 130 valores.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/TRT3a2022_Q56.png" class="img-fluid quarto-figure quarto-figure-center figure-img" data-fig-cap="" width="240"></p>
+</figure>
+</div>
+<p>Baseado nas informações fornecidas no diagrama, é <strong>CORRETO</strong> afirmar:</p>
+<div class="options">
+<ol type="1">
+<li>A Amplitude Interquartílica é de 128.</li>
+<li>Caso existisse na amostra um valor igual a 10, ele seria considerado um Outlier.</li>
+<li>Caso existisse na amostra um valor superior a 172, ele seria considerado um Outlier.</li>
+<li>No intervalo de 30 a 91, existem 50% do total de valores da amostra.</li>
+<li>O valor do 1º Quartil é 30, o do 2º Quartil é 37, o do 3º Quartil é 48 e o do 4º Quartil é 91.</li>
+</ol>
+</div>
+<details>
+<summary>
+Comentários
+</summary>
+<p>Fonte: TRT da 3ª Região - Analista Judiciário - Estatística, 2022.</p>
 </details>
 </div>
 
